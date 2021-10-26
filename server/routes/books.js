@@ -29,7 +29,7 @@ router.get('/details', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-     res.render('books/details', {title: 'Add Contact', books: ''})
+     res.render('books/details', {title: 'Add Book', books: ''})
 
 });
 
